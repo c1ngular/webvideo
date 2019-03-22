@@ -28,7 +28,7 @@ export default class App extends Component<Props> {
       <View style={styles.container}>
         <Banner
           unitId={'ca-app-pub-3940256099942544/6300978111'}
-          size={'FULL_BANNER'}
+          size={'SMART_BANNER'}
           request={adRequest.build()}
           onAdLoaded={() => {
             console.log('Advert loaded');

@@ -1,0 +1,20 @@
+{
+    "webviewLoadingIndicatorTxt":"loading",
+    "webviewLoadingErrMsg":"Failed to load the url",
+    "probing":"probing",
+    "probingFail":"no video stream found",
+    "downloading":"downloading",
+    "androidSavingPermiTitle":"saving video",
+    "androidSavingPermiText":"need permission to write to photo gallery",
+    "androidSavingPermiDenyText":"permission denied to write to photo gallery",
+    "androidSavingPermiRequestErrMsg":"failed to request gallery access",
+    "videoDownloadingErrMsg":"something went wrong",
+    "videoSaveSuccessMsg":"video has been saved to photo gallery",
+    "videoSaveFailMsg":"error while saving video to photo gallery",
+    "videoProcessingIndicatorText":"processing",
+    "urlPlaceHolderText":"please type your m3u8 address or any web url",
+    "downloadButtonText":"download",
+    "videoZeroMsg":"no video detected from current page !"
+
+
+}

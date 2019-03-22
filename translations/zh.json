@@ -1,0 +1,19 @@
+{
+    "webviewLoadingIndicatorTxt":"加载中",
+    "webviewLoadingErrMsg":"地址加载失败",
+    "probing":"正在分析",
+    "probingFail":"未检测到视频流",
+    "downloading":"下载中",
+    "androidSavingPermiTitle":"保存视频",
+    "androidSavingPermiText":"保存视频到相册需要授权",
+    "androidSavingPermiDenyText":"相册访问请求被拒绝",
+    "androidSavingPermiRequestErrMsg":"相册访问请求失败",
+    "videoDownloadingErrMsg":"视频下载失败",
+    "videoSaveSuccessMsg":"视频已成功保存到相册",
+    "videoSaveFailMsg":"视频保存到相册失败",
+    "videoProcessingIndicatorText":"处理中",
+    "urlPlaceHolderText":"请输入m3u8或者其它网页地址",
+    "downloadButtonText":"下载",
+    "videoZeroMsg":"未在当前页面检测到视频内容 !"
+
+}
