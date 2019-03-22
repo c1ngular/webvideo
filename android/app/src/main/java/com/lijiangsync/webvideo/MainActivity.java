@@ -1,4 +1,4 @@
-package com.webvideo;
+package com.lijiangsync.webvideo;
 
 import com.facebook.react.ReactActivity;
 
