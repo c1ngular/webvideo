@@ -15,12 +15,25 @@ const instructions = Platform.select({
     'Double tap R on your keyboard to reload,\n' +
     'Shake or press menu button for dev menu',
 });
-
+const adMob=firebase.admob();
+adMob.initialize('ca-app-pub-3940256099942544~3347511713');
+const Banner = firebase.admob.Banner;
+const AdMobRequest = firebase.admob.AdRequest;
+const adRequest = new AdMobRequest();
+const admobInterstitial = firebase.admob().interstitial('ca-app-pub-3940256099942544/1033173712');
 type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
+        <Banner
+          unitId={'ca-app-pub-3940256099942544/6300978111'}
+          size={'SMART_BANNER'}
+          request={adRequest.build()}
+          onAdLoaded={() => {
+            console.log('Advert loaded');
+          }}
+        />
         <Text style={styles.welcome}>Welcome to React Native!</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
