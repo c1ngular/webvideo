@@ -106,7 +106,7 @@ export default class App extends Component<Props> {
       }
     }
     else{
-      this.setState({mainUrl:App.urlInputed});
+      this.setState({errorM3u8Name:'webviewLoadingErrMsg',errorM3u8Url:App.urlInputed,showM3u8ErrorView:true});
     }
   }
 

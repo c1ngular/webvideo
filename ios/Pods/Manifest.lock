@@ -127,8 +127,8 @@ PODS:
 
 DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
-  - Firebase/AdMob
-  - Firebase/Core
+  - Firebase/AdMob (~> 5.15.0)
+  - Firebase/Core (~> 5.15.0)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
   - react-native-ffmpeg (from `../node_modules/react-native-ffmpeg/ios/react-native-ffmpeg.podspec`)
@@ -211,6 +211,6 @@ SPEC CHECKSUMS:
   RNVectorIcons: cb42a5653c046f12ca16c9480c571b52620559e8
   yoga: 8fb47f180b19b0dadb285a09e4c74c8a41721d3a
 
-PODFILE CHECKSUM: 7fc82d150ee6e898361140e21a08b77a36d8855d
+PODFILE CHECKSUM: 4f232b811252f6aa2790110014ff15315ec3f5df
 
 COCOAPODS: 1.6.1
