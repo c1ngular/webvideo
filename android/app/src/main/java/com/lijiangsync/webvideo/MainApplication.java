@@ -3,6 +3,12 @@ package com.lijiangsync.webvideo;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.brentvatne.react.ReactVideoPackage;
+import com.oblador.vectoricons.VectorIconsPackage;
+import com.corbt.keepawake.KCKeepAwakePackage;
+import com.reactnativecommunity.webview.RNCWebViewPackage;
+import com.rnfs.RNFSPackage;
+import com.reactcommunity.rnlocalize.RNLocalizePackage;
 import io.invertase.firebase.RNFirebasePackage;
 import io.invertase.firebase.admob.RNFirebaseAdMobPackage;
 import com.facebook.react.ReactNativeHost;
@@ -25,6 +31,12 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new ReactVideoPackage(),
+            new VectorIconsPackage(),
+            new KCKeepAwakePackage(),
+            new RNCWebViewPackage(),
+            new RNFSPackage(),
+            new RNLocalizePackage(),
           new RNFirebasePackage(),
           new RNFirebaseAdMobPackage()
       );

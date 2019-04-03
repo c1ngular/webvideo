@@ -1,0 +1,34 @@
+{
+  "name": "react-native-ffmpeg",
+  "version": "0.3.1",
+  "summary": "FFmpeg for React Native",
+  "description": "React Native FFmpeg based on mobile-ffmpeg-https",
+  "homepage": "https://github.com/tanersener/react-native-ffmpeg",
+  "authors": {
+    "Taner Sener": "tanersener@gmail.com"
+  },
+  "license": {
+    "type": "LGPL-3.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "static_framework": true,
+  "source": {
+    "git": "https://github.com/tanersener/react-native-ffmpeg.git",
+    "tag": "v0.3.1"
+  },
+  "source_files": [
+    "ios/RNFFmpegModule.m",
+    "ios/RNFFmpegModule.h"
+  ],
+  "dependencies": {
+    "mobile-ffmpeg-https": [
+      "4.2.LTS"
+    ],
+    "React": [
+
+    ]
+  }
+}
